@@ -1,0 +1,10 @@
+what,kind,bundleId,bundleVersion,description,time
+started,bundle,org.eclipse.mylyn.ide.ant,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.ide.ant,1514327228711
+started,bundle,org.eclipse.mylyn.pde.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.pde.ui,1514327229477
+started,bundle,org.eclipse.mylyn.resources.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.resources.ui,1514327229915
+closed,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1514327235504
+stopped,bundle,org.eclipse.jst.j2ee.xdoclet.runtime,1.1.102.v200805140135,org.eclipse.jst.j2ee.xdoclet.runtime,1514327249547
+stopped,bundle,org.eclipse.jst.j2ee.ejb.annotations.xdoclet,1.2.0.v200805140020,org.eclipse.jst.j2ee.ejb.annotations.xdoclet,1514327250282
+stopped,bundle,org.eclipse.jst.server.generic.jboss,1.5.206.v20090115,org.eclipse.jst.server.generic.jboss,1514327251938
+stopped,bundle,org.eclipse.jst.server.generic.jonas,1.5.205.v200805140145,org.eclipse.jst.server.generic.jonas,1514327252469
+stopped,bundle,org.eclipse.jst.server.generic.oc4j,1.5.205.v200805140145,org.eclipse.jst.server.generic.oc4j,1514327252938

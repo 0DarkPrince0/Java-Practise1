@@ -1,0 +1,44 @@
+package Practice;
+import java.util.Scanner;
+public class Practice
+{
+
+	
+	public static void main(String[] args) 
+	{
+		//Scanner scan=new Scanner(System.in);
+		String str1="She is a girl. Her name is Sonali. Sonali is a beautiful girl and she is very nice to talk";
+		System.out.println(str1);
+
+		String array[];
+		array=str1.split(" ");
+		
+		for(int i=0;i<array.length;i++)
+		{
+			System.out.print(array[i]+" ");
+		}
+		
+		for(int i=0;i<array.length;i++)
+		{
+			for(int j=0;j<array.length;j++)
+			{
+				if(array[i].equalsIgnoreCase(array[j]))
+				{
+					if(i!=j)
+					{
+						array[j]=" ";
+					}
+				}
+			}
+		}
+		for(int i=0;i<array.length;i++)
+		{
+			if(array[i]!=" ")
+			{
+			System.out.print(array[i]+" ");
+			}
+		}
+	}
+		
+
+}

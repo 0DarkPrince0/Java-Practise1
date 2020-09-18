@@ -1,0 +1,28 @@
+package Practice;
+
+public class Temp {
+
+	public static void main(String[] args) 
+	{
+		String str1="welcome welcome welcome";
+		String str2="wel";
+		String str3="";
+		int i;
+		System.out.println(str1);
+		System.out.println(str2);
+		for(i=0;i<str2.length();i++)
+		{
+			if(str1.charAt(i)!=str2.charAt(i))
+			{
+				if(str1.charAt(i+1)!=str2.charAt(i+1))
+				{
+					if(str1.charAt(i+2)!=str2.charAt(i+2))
+					{
+						str3=str3+str1.charAt(i)+str1.charAt(i+1)+str1.charAt(i+2);
+					}
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+what,kind,bundleId,bundleVersion,description,time
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.navigate.collapseAll,1499063094092
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.navigate.linkWithEditor,1499063097893
+opened,view,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.TypeHierarchy,1499063103797
+activated,view,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.TypeHierarchy,1499063103812
+activated,view,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.PackageExplorer,1499063106582
+closed,view,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.TypeHierarchy,1499063106613
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1499063117779
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1499063219835
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.file.import,1499063219851
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1499063222055
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1499063222893
+started,bundle,org.eclipse.mylyn.ide.ant,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.ide.ant,1499063223059
+started,bundle,org.eclipse.mylyn.java.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.java.ui,1499063223074
+started,bundle,org.eclipse.mylyn.pde.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.pde.ui,1499063223090
+started,bundle,org.eclipse.mylyn.resources.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.resources.ui,1499063223293
+closed,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1499063223418

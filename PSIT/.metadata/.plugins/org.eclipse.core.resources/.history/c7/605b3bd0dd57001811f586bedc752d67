@@ -1,0 +1,36 @@
+package Practice;
+import java.util.Scanner;
+public class Practice 
+{
+
+
+	    public static void main(String args[] )
+	    {
+	      Scanner scan=new Scanner(System.in);
+	      
+	      int number,i;
+	      boolean flag=true;
+	      System.out.println("Enter the number");
+	      number=scan.nextInt();
+	      
+	      for(i=2;i<number/2;i++)
+	      {
+	    	  if(number%i==0)
+	    	  {
+	    		  flag=false;
+	    	  }
+	      }
+	     if(flag)
+	     {
+	    	 System.out.println("number is prime");
+	     }
+	     else
+	     {
+	    	 System.out.println("Number is not prime");
+	     }
+	      
+	     
+	    }
+	}
+
+

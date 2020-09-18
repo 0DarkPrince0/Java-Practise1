@@ -1,0 +1,14 @@
+what,kind,bundleId,bundleVersion,description,time
+closed,editor,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.CompilationUnitEditor,1523655968752
+closed,editor,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.CompilationUnitEditor,1523655970042
+closed,editor,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.CompilationUnitEditor,1523655971438
+closed,editor,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.CompilationUnitEditor,1523655973011
+executed,command,org.eclipse.ui,3.4.2.M20090204-0800,org.eclipse.ui.edit.undo,1523655981365
+activated,view,org.eclipse.ui.console,3.3.1.v20090128_r342,org.eclipse.ui.console.ConsoleView,1523655983702
+activated,editor,org.eclipse.jdt.ui,3.4.2.r342_v20090107-0800,org.eclipse.jdt.ui.CompilationUnitEditor,1523655988504
+deactivated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1523656023436
+activated,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1523656024106
+started,bundle,org.eclipse.mylyn.ide.ant,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.ide.ant,1523656024257
+started,bundle,org.eclipse.mylyn.pde.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.pde.ui,1523656024280
+started,bundle,org.eclipse.mylyn.resources.ui,3.0.5.v20090218-1800-e3x,org.eclipse.mylyn.resources.ui,1523656024284
+closed,workbench,org.eclipse.ui.workbench,3.4.2.M20090127-1700,,1523656024510

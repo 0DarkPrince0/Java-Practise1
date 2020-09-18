@@ -1,0 +1,22 @@
+
+public class Fibnocci {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args)
+	{
+		System.out.println("Please tell me the series size:- ");
+		int size,number1=0,number2=1,next_number,i;	
+		size =new java.util.Scanner(System.in).nextInt();
+		System.out.println("Number1= "+number1+"number2= "+number2);
+		for(i=2;i<size;i++)
+		{
+			next_number=number1+number2;
+			number1=number2;
+			number2=next_number;
+		}
+		
+	}
+
+}

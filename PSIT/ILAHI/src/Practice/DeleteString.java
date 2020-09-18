@@ -1,0 +1,41 @@
+package Practice;
+
+public class DeleteString
+{
+
+	public static void main(String[] args) 
+	{
+		String str1="welcome welcome welcome wec";
+		String str2="wel";
+		String str3="";
+		int i;
+		System.out.println(str1);
+		System.out.println(str2);
+		for(i=0;i<str1.length();i++)
+		{
+			
+			if(str1.charAt(i)==str2.charAt(0))
+			{
+				if(str1.charAt(i+1)==str2.charAt(1))
+				{
+					if(str1.charAt(i+2)==str2.charAt(2))
+					{
+						i=i+2;
+						//str3=str3+str1.charAt(i)+str1.charAt(i+1)+str1.charAt(i+2);
+						continue;
+					}
+					
+				}
+			}
+			else
+			{
+				str3=str3+str1.charAt(i);
+			}
+
+		}
+
+		System.out.println(str3);
+	}
+
+	
+}

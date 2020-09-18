@@ -1,0 +1,29 @@
+package Practice;
+import java.util.Scanner;
+public class Practice
+{
+
+	
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		int i,j,k,number=1,length;
+		System.out.println("enter length-");
+		length=scan.nextInt();
+		
+		for(i=0;i<length;i++)
+		{
+			for(j=length;j>0;j--)
+			{
+				System.out.println(" ");
+			}
+			System.out.println(number);
+
+			number=number*11;
+		}
+	
+		
+	}
+		
+
+}

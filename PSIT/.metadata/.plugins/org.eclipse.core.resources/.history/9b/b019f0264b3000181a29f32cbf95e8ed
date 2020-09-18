@@ -1,0 +1,44 @@
+package Practice;
+import java.util.Scanner;
+public class Practice
+{
+
+	
+	public static void main(String[] args) 
+	{
+		//Scanner scan=new Scanner(System.in);
+		String str1="She is a girl. Her name is Sonali. Sonali is a beautiful girl and she is very nice to talk";
+		String array[];
+		int i,j;
+		array=str1.split(" ");
+	
+		for(i=0;i<array.length;i++)
+		{
+		
+			for(j=0;j<array.length;j++)
+			{
+
+				System.out.println("Nagma");
+				if(array[i].equals(array[j]))
+				{
+					System.out.println("Ilahi");
+					if(i!=j)
+					{
+					System.out.println("faheem");
+					array[j]=null;
+					}
+				}
+			}
+			for(i=0;i<array.length;i++)
+			{
+				if(array[i]!=null)
+				{
+					System.out.print(array[i]+" ");
+				}
+			}
+		}
+
+	}
+		
+
+}

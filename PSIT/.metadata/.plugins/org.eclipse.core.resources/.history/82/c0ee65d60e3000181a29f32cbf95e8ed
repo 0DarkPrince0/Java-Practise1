@@ -1,0 +1,55 @@
+package Practice;
+import java.util.Scanner;
+public class Practice
+{
+
+	
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		String str1="hellowelcome";
+		String str2="";
+		int i,j,count;
+		for(i=0;i<str1.length();i++)
+		{
+			count=0;
+			for(j=0;j<str2.length();j++)
+			{
+				if(str1.charAt(i)==str2.charAt(j))
+				{
+					count++;
+				}
+				else
+				{
+					continue;
+				}
+			}
+			if(count==0)
+			{
+				str2=str2+str1.charAt(i);
+			}
+				
+		}
+		System.out.println(str2);
+		
+		
+		for(i=0;i<str2.length();i++)
+		{
+			count=0;
+			for(j=0;j<str1.length();j++)
+			{
+				if(str2.charAt(i)==str1.charAt(j))
+				{
+					count++;
+				}
+				else
+				{
+					continue;
+				}
+			}
+			System.out.print(str2.charAt(i)+""+count);
+		}
+	}
+		
+
+}

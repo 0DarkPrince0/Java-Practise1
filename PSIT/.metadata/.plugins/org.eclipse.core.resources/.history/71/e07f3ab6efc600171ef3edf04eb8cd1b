@@ -1,0 +1,35 @@
+import java.util.Scanner;
+public class Test1
+{
+
+	
+	public static void main(String[] args)
+	{
+		
+		Scanner scan=new Scanner(System.in);
+		int lines,i,j,k;
+		System.out.println("How many lines do you want to print= ");
+		lines=scan.nextInt();
+		for(i=0;i<lines;i++)
+		{
+			for(j=0;j<lines;j++)
+			{
+				System.out.print("  ");
+			}
+			for(k=0;k<=i;k++)
+			{
+				System.out.print("* ");
+			}
+			System.out.println();
+		}
+		for(i=0;i<lines;i++)
+		{
+			for(j=lines;j>i;j++)
+			{
+				System.out.print(" *");
+			}
+			System.out.println();
+		}
+	}
+
+}

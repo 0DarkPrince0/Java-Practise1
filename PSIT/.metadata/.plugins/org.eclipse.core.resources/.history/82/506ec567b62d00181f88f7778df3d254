@@ -1,0 +1,36 @@
+package Practice;
+import java.util.Scanner;
+public class Practice
+{
+
+	
+	public static void main(String[] args) 
+	{
+		Scanner scan=new Scanner(System.in);
+		int i,j,k,number=1,length,temp=0,number1;
+		System.out.println("enter length-");
+		length=scan.nextInt();
+		
+		for(i=0;i<length;i++)
+		{
+			for(j=length;j>i;j--)
+			{
+				System.out.print("  ");
+			}
+			number1=number;
+			while(number1!=0)
+			{
+				temp=number1%10;
+				number1=number1/10;
+			System.out.print(temp+"  ");
+
+			}
+			number=number*11;
+			System.out.println();
+		}
+	
+		
+	}
+		
+
+}
